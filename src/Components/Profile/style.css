@@ -1,0 +1,43 @@
+.profile {
+  display: flex;
+  gap: 40px;
+  margin: 30px;
+}
+
+.profile__image {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #EDEEF0;
+  border-radius: 4px;
+  background-color: white;
+  padding: 20px;
+}
+
+.profile__img {
+  width: 180px;
+  border-radius: 4px;
+}
+
+.profile__button-edit {
+  width: 180px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: black;
+  background-color: #EDEEF0;
+  text-align: center;
+  margin: 4px 0;
+  padding: 4px 0;
+}
+
+.profile__description {
+  display: flex;
+  gap: 70px;
+  border: 2px solid #EDEEF0;
+  border-radius: 4px;
+  background-color: white;
+  padding: 20px;
+}
+
+.profile__description-titles {
+  color: #555555;
+}

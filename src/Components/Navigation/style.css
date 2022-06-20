@@ -1,0 +1,19 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 50px;
+  background-color: white;
+  border-bottom: 1px solid #EDEEF0;
+}
+
+.navigation__image {
+  border-radius: 50%;
+  width: 50px;
+
+}
+
+.navigation__button {
+  border: none;
+}
